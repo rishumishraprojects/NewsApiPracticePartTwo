@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Lint
-        uses : ./gradelw lintDebug
+        uses : ./gradlew lintDebug
 
       - name: Upload html test report
         uses: actions/upload-artifact@v4
